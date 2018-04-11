@@ -1,0 +1,25 @@
+/*
+* Section: about
+*/
+
+#about {
+  background-image: url("../images/his-truck.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 2em;
+  height: 700px;
+  width: 100%;
+}
+
+#about .molecule-section__content:first-child {
+  padding-top: 2em;
+}
+
+/*
+* Section: hobbies
+*/
+
+#hobbies .molecule-card {
+  width: 200px;
+}

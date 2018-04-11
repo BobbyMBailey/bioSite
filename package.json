@@ -1,0 +1,16 @@
+{
+  "name": "bioSite_bradleyS",
+  "version": "1.0.0",
+  "description": "A bioSite for Bradley Smith that is used for web development training material ",
+  "main": "index.js",
+  "author": "Robert Bailey",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn lint",
+    "lint": "stylelint css/*.css"
+  },
+  "devDependencies": {
+    "stylelint": "^9.2.0",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
