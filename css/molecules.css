@@ -81,12 +81,11 @@
 }
 
 .molecule-card--full {
-  width: 100%;
+  width: 86.2%;
 }
 
 .molecule-card__text {
-  padding: 0 1.1em 1em;
-  margin-top: 1em;
+  padding-left: 1em;
 }
 
 .molecule-card__title {

@@ -3,11 +3,11 @@
 */
 
 #about {
-  background-image: url("../images/his-truck.jpg");
+  background-image: url("../images/about-southwest-pic.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-bottom: 2em;
+  padding-bottom: 12em;
   height: 700px;
   width: 100%;
 }
