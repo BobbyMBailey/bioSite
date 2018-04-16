@@ -1,0 +1,57 @@
+/*
+* Section: header
+*/
+
+.organism-header {
+  display: flex;
+  height: 67px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.organism-header__content {
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*
+* Section: Introduction/Hero
+*/
+
+.organism-introduction {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/SouthwestMAX.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+  width: 100%;
+}
+
+.organism-introduction__text {
+  width: 100%;
+  text-align: center;
+}
+
+/*
+* Section: footer
+*/
+
+.organism-footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px 0;
+  width: 100%;
+}
+
+.organism-footer__text {
+  padding: 1px;
+}
