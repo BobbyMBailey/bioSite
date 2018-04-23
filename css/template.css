@@ -1,0 +1,38 @@
+/*
+* Section: about
+*/
+
+/* this code is being used on the bioSite.
+* It contains a background image for the about section.
+*/
+#about {
+  background-image: url("../images/about-southwest-pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 4em;
+  width: 100%;
+  height: 100%;
+}
+
+.about-continue {
+  background-image: url("../images/about-southwest-pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 4em;
+  width: 100%;
+  height: 500px;
+}
+
+#about .molecule-section__content:first-child {
+  padding-top: 2em;
+}
+
+/*
+* Section: hobbies
+*/
+
+#hobbies .molecule-card {
+  width: 200px;
+}
