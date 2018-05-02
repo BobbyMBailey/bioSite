@@ -1,0 +1,112 @@
+/*
+*  The following code is for each organism used on the bioSite.
+*  Each class is following BEM Methodology: block, element, modifier
+*  organism-header, organism-introduction, and organism-footer are the blocks
+*  anything after the label __ is an element
+*  anything after the label -- is an modifier
+*/
+
+/*
+* Section: header
+*/
+
+/* header block */
+.organism-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 67px;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+/* header content */
+.organism-header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.organism-header__content > span {
+  padding: 0 3px;
+}
+
+/* modifier for the header content */
+.organism-header__content--increase-size:hover {
+  font-size: 1.2em;
+  opacity: 0.8;
+}
+
+/*
+* Section: Introduction/Hero
+*/
+
+/* introduction/Hero block */
+.organism-introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url("../images/SouthwestMAX.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+
+/* introduction text */
+.organism-introduction__text {
+  width: 100%;
+  text-align: center;
+}
+
+/*
+* Section: footer
+*/
+
+/* footer block */
+.organism-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding: 2em 0;
+  width: 100%;
+}
+
+/* footer text */
+.organism-footer__text {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+/* copy write */
+small {
+  padding-bottom: 12px;
+}
